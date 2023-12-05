@@ -8,8 +8,8 @@ import { configureLockPhysicalControls } from './characteristic/LockPhysicalCont
 import { configureRelativeHumidityDehumidifierThreshold } from './characteristic/RelativeHumidityDehumidifierThreshold';
 
 const SCHEMA_CODE = {
-  ACTIVE: ['switch'],
-  CURRENT_HUMIDITY: ['humidity_indoor'],
+  ACTIVE: ['Power'],
+  CURRENT_HUMIDITY: ['humidity'],
   TARGET_HUMIDITY: ['dehumidify_set_value'],
   CURRENT_TEMP: ['temp_indoor'],
   SPEED_LEVEL: ['fan_speed_enum'],
